@@ -7,7 +7,7 @@
       "name": "Nargath"
     }
     ],
-   "version": "v2024.01.18",
+   "version": "v2024.01.18-alpha",
    "compatibility": {
       "minimum": "10",
       "verified": "10.290",
@@ -54,4 +54,3 @@
     }
   ]
  }
- 
