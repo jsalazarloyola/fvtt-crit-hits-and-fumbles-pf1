@@ -1,35 +1,57 @@
 {   
-   "name": "critical-hits-and-fumbles-pf1",   
+   "id": "critical-hits-and-fumbles-pf1",   
    "title": "Critical Hits and Fumbles for PF1",   
    "description": "Rolltables and Buffs for rolling Crits and Fumbles",   
-   "author": "Nargath",
-   "version": "1.0.1",
-   "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion":"0.8.6",
-   "url":"https://github.com/Nargath/fvtt-crit-hits-and-fumbles-pf1",
-   "download":"https://github.com/Nargath/fvtt-crit-hits-and-fumbles-pf1/releases/download/1.0.1/1.0.1.zip",
-   "manifest":"https://raw.githubusercontent.com/Nargath/fvtt-crit-hits-and-fumbles-pf1/main/module.json",
+   "authors": [
+    {
+      "name": "Nargath"
+    }
+    ],
+   "version": "v2024.01.18",
+   "compatibility": {
+      "minimum": "10",
+      "verified": "10.290",
+      "maximum": "11"
+    },
+    "relationships": {
+      "systems": [{
+        "id": "pf1",
+        "type": "system",
+        "manifest": "https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1/-/releases/permalink/latest/downloads/system.json",
+        "compatibility": {
+          "minimum": "0.82.2",
+          "verified": "9.6"
+        }
+      }]
+    },
+   "url":"https://github.com/jsalazarloyola/fvtt-crit-hits-and-fumbles-pf1",
+   "download":"https://github.com/jsalazarloyola/fvtt-crit-hits-and-fumbles-pf1/releases/tags/v2024.01.18-alpha/v2024.01.18-alpha.zip",
+   "manifest":"https://raw.githubusercontent.com/jsalazarloyola/fvtt-crit-hits-and-fumbles-pf1/main/module.json",
    "packs": [
    {
       "name": "crithits",
       "label": "Critical Hits - PF1",
       "path": "packs/crithits.db",
       "entity": "Item",
-      "module": "critical-hits-and-fumbles-pf1"
+      "module": "critical-hits-and-fumbles-pf1",
+      "system": "pf1"
     },
     {
       "name": "critfumbles",
       "label": "Critical Fumbles - PF1",
       "path": "packs/critfumbles.db",
       "entity": "Item",
-      "module": "critical-hits-and-fumbles-pf1"
+      "module": "critical-hits-and-fumbles-pf1",
+      "system": "pf1"
     },
     {
       "name": "critrolls",
       "label": "Critical Rolltables - PF1",
       "path": "packs/critrolls.db",
       "entity": "RollTable",
-      "module": "critical-hits-and-fumbles-pf1"
+      "module": "critical-hits-and-fumbles-pf1",
+      "system": "pf1"
     }
   ]
  }
+ 
